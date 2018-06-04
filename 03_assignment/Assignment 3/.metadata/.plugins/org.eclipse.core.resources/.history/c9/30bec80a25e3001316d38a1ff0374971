@@ -1,0 +1,17 @@
+/*
+ * Test.c
+ * Created on: 24/05/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	int matrix[4][4] = {{1,1,1,1},
+						{1,1,0,0},
+						{1,0,1,0},
+						{1,0,0,1}};
+
+	return 0;
+}

@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project Question2 ****
+
+**** Internal Builder is used for build               ****
+gcc -o Question2.exe Question2.o
+Build complete for project Question2
+Time consumed: 670  ms.  

@@ -1,0 +1,24 @@
+
+**** Rebuild of configuration Debug for project Assignment1v2 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Assignment1v2.o ..\Assignment1v2.c
+..\Assignment1v2.c:10:18: error: array type has incomplete element type
+ int getEdges(int matrix[][]);
+                  ^
+..\Assignment1v2.c: In function 'main':
+..\Assignment1v2.c:14:6: error: array type has incomplete element type
+  int graph[][] = {  {0,3,2,0,0,0,0},
+      ^
+..\Assignment1v2.c:21:2: error: type of formal parameter 1 is incomplete
+  getEdges(graph);
+  ^
+..\Assignment1v2.c:14:6: warning: unused variable 'graph' [-Wunused-variable]
+  int graph[][] = {  {0,3,2,0,0,0,0},
+      ^
+..\Assignment1v2.c: At top level:
+..\Assignment1v2.c:27:18: error: array type has incomplete element type
+ int getEdges(int matrix[][]){
+                  ^
+Build error occurred, build is stopped
+Time consumed: 426  ms.  

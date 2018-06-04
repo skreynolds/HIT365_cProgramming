@@ -1,0 +1,39 @@
+/*
+ * Question1.c
+ * Created on: 18/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#define ASIZE 7
+
+void printArray(int array[ASIZE]);
+
+int main(void){
+
+	int temp;
+	int marks[ASIZE] = {97, 65, 68, 73, 75, 83, 63};
+
+	printArray(marks);
+	printf("\n\n");
+
+	temp = marks[0];
+	marks[0] = marks[7];
+	marks[7] = temp;
+
+	printArray(marks);
+	printf("\n\n");
+
+	return 0;
+}
+
+
+void printArray(int array[ASIZE]){
+
+	int i;
+
+	for(i = 0; i < ASIZE; i++){
+			printf("%d \n", array[i]);
+		}
+
+}

@@ -1,0 +1,64 @@
+/*
+ * Assignment1.c
+ * Created on: 08/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int graphAnalysis(int graph[][7], int rowSize, int colSize);
+
+int main(void){
+
+	int matrix[7][7] = {{0,3,2,0,0,0,0},
+						{0,0,0,0,1,2,0},
+						{0,0,0,2,0,4,0},
+						{0,0,0,0,0,1,0},
+						{0,0,0,0,0,0,3},
+						{0,0,0,0,0,0,2},
+						{0,0,0,0,0,0,0}};
+
+	int k = sizeof(matrix) / sizeof(matrix[0]);
+
+	graphAnalysis(matrix, k, k);
+
+	return 0;
+}
+
+int graphAnalysis(int graph[][7], int rowSize, int colSize){
+
+	int edgeCounter = 0;
+	int degreeCounter;
+	int i, j;
+
+	printf("\n\n%s%7s\n\n", "Node", "Degree");
+
+	/* The code iterates through the rows of the graph matrix */
+	for (i = 0; i <= rowSize-1; i++){
+
+		/* The node degree is set to zero for each new node */
+		degreeCounter = 0;
+
+		/* The code, for a given row, iterates through the columns */
+		for (j = i; j <= colSize-1; j++){
+
+			/* This piece of code tests to see if there is a non-zero entry in the graph matrix
+			 * for the [ij]th entry to the graph matrix. If there is, then it counts this as an edge */
+			if (graph[i][j] != 0){
+				edgeCounter += 1;
+				degreeCounter += 1;
+			}
+		}
+
+		printf("V%d%7d\n", i, degreeCounter);
+	}
+
+	printf("\nThe number of edges in your matrix are: %d\n", edgeCounter);
+
+	return 0;
+
+}
+
+

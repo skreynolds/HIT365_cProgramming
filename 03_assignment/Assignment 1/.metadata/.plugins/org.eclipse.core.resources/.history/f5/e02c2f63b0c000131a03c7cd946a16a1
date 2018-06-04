@@ -1,0 +1,114 @@
+/*
+ * Assignment1.c
+ * Created on: 08/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define SIZE 7
+
+void printgraphAnalysis(int graph[][SIZE], int rowSize, int colSize);
+int getEdges(int graph[][SIZE], int rowSize, int colSize);
+int getDegree(int graph[][SIZE], int rowSize, int colSize, int i);
+int getMinNode(int graph[][SIZE], int rowSize, int colSize);
+
+/* int getMaxNode(int graph[][SIZE], int rowSize, int colSize);
+int totalDegreeNode(int graph[][SIZE], int rowSize, int colSize); */
+
+int main(void){
+
+	int matrix[SIZE][SIZE] = {	{0,3,2,0,0,0,0},
+								{0,0,0,0,1,2,0},
+								{0,0,0,2,0,4,0},
+								{0,0,0,0,0,1,0},
+								{0,0,0,0,0,0,3},
+								{0,0,0,0,0,0,2},
+								{0,0,0,0,0,0,0}	};
+
+	int k = sizeof(matrix) / sizeof(matrix[0]);
+
+	printgraphAnalysis(matrix, k, k);
+
+	return 0;
+}
+
+void printgraphAnalysis(int graph[][SIZE], int rowSize, int colSize){
+
+	/* Initialise the variables to be used in the function */
+	int i;
+
+	/* Prints information on the number of edges in the graph */
+	printf("\nThe number of edges in your matrix are: %d\n", getEdges(graph, rowSize, colSize));
+
+	/* Prints the headers for the degrees for each node table */
+	printf("\n\n%s%7s\n\n", "Node", "Degree");
+
+	/* Prints information on the number of degrees for each node */
+	for (i = 0; i <= SIZE-1; i++){
+		printf("V%d%7d\n", i+1, getDegree(graph, rowSize, colSize, i));
+	}
+
+	/* Prints information on the node with the minimum number of degrees */
+	printf("\nThe node with the minimum number of degrees is: %d\n", getMinNode(graph, rowSize, colSize) + 1);
+}
+
+
+int getEdges(int graph[][SIZE], int rowSize, int colSize){
+	int edgeCounter = 0;
+	int i, j;
+
+	for (i = 0; i <= rowSize-1; i++){
+
+			/* The code, for a given row, iterates through the columns */
+			for (j = i; j <= colSize-1; j++){
+
+				/* This piece of code tests to see if there is a non-zero entry in the graph matrix
+				 * for the [ij]th entry to the graph matrix. If there is, then it counts this as an edge */
+				if (graph[i][j] != 0){
+					edgeCounter += 1; /* Edge counter is increase by one if edge present */
+				}
+			}
+	}
+	return edgeCounter;
+}
+
+
+int getDegree(int graph[][SIZE], int rowSize, int colSize, int i){
+
+	int degreeCounter = 0;
+	int j;
+
+	/* The code, for a given row, iterates through the columns */
+	for (j = i; j <= colSize-1; j++){
+
+		/* This piece of code tests to see if there is a non-zero entry in the graph matrix
+		* for the [ij]th entry to the graph matrix. If there is, then it counts this as an edge */
+		if (graph[i][j] != 0){
+			degreeCounter += 1; /* Edge counter is increase by one if edge present */
+		}
+	}
+
+	return degreeCounter;
+}
+
+
+int getMinNode(int graph[][SIZE], int rowSize, int colSize){
+
+	int i, degreeNew;
+	int degree = SIZE-1;
+	int minNode = 0;
+
+	for (i = 0; i <= colSize-1; i++){
+
+		degreeNew = getDegree(graph, rowSize, colSize, i);
+
+		if (degreeNew < degree){
+			degree = degreeNew;
+			minNode = i;
+		}
+	}
+
+	return minNode;
+}

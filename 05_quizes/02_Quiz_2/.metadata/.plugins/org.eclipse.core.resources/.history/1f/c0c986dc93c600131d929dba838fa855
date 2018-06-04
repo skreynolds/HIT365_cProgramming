@@ -1,0 +1,40 @@
+/*
+ * Question2.c
+ * Created on: 18/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	int i;
+	char fantasy[] = "The cat sat on the mat.";
+
+	/* Answer to part a */
+	printf("%c\n\n", fantasy[0]);
+
+	/* Answer to part b */
+	printf("%c\n\n", fantasy[sizeof(fantasy)-2]);
+
+	/* Answer to part c */
+	for (i = 0; i < sizeof(fantasy); i++){
+		printf("%c", fantasy[i]);
+	}
+
+	printf("\n\n");
+
+	for (i = 0; i < sizeof(fantasy); i++){
+		if ( i < (sizeof(fantasy)-1) ){
+			printf("%c", fantasy[i+1]);
+		} else {
+			printf("Nothing to the right.");
+		}
+	}
+
+	printf("\n\n");
+
+	return 0;
+}
+
+

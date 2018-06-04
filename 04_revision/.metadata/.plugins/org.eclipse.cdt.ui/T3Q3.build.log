@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project T3Q3 ****
+
+**** Internal Builder is used for build               ****
+gcc -o T3Q3.exe T3Q3.o
+Build complete for project T3Q3
+Time consumed: 596  ms.  

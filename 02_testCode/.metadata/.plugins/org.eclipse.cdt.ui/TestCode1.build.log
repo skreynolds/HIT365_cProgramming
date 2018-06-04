@@ -1,0 +1,11 @@
+
+**** Build of configuration Debug for project TestCode1 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TestCode1.o ..\TestCode1.c
+..\TestCode1.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void){
+      ^
+gcc -o TestCode1.exe TestCode1.o
+Build complete for project TestCode1
+Time consumed: 1929  ms.  

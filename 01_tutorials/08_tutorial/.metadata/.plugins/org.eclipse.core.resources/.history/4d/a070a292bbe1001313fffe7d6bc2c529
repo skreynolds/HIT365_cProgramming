@@ -1,0 +1,24 @@
+/*
+ * Question2.c
+ * Created on: 22/05/2014
+ * Author: Shane
+ */
+
+#define LEN 5
+
+#include <stdio.h>
+
+int main(void){
+	int values[LEN] = {1, 2, 3, 4, 5};
+	int temp = values[LEN - 1];
+
+	for (int index = LEN-1; index > 0; index--){
+		values[index] = values[index-1];
+	}
+
+	values[0] = temp;
+
+	return 0;
+}
+
+

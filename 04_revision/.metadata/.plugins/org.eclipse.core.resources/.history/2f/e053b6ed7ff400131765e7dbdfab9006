@@ -1,0 +1,49 @@
+/*
+ * T8Q4.c
+ * Created on: 15/06/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	int size = 10;
+	int i, j;
+
+	for (i = 0; i < size; i++){
+
+		for (j = 0; j < i; j++){
+			printf(" ");
+		}
+
+		for (j = 0; j < size - i; j++){
+			printf("*");
+		}
+
+		printf("\n");
+	}
+	return 0;
+}
+
+/*int main(void){
+
+	int size = 10;
+	int count;
+	int i;
+
+	for (count = 0; count < size; count++){
+
+		for (i = 0; i < count; i++){
+			printf(" ");
+		}
+
+		for (i = 0; i < size - count; i++){
+			printf("*");
+		}
+
+		printf("\n");
+	}
+
+	return 0;
+}*/

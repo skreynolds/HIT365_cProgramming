@@ -1,0 +1,15 @@
+
+**** Rebuild of configuration Debug for project Question2 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Question2.o ..\Question2.c
+..\Question2.c: In function 'main':
+..\Question2.c:14:9: warning: unused variable 'num' [-Wunused-variable]
+  int i, num;
+         ^
+..\Question2.c:13:6: warning: unused variable 'indexes' [-Wunused-variable]
+  int indexes[2] = {1, 4};
+      ^
+gcc -o Question2.exe Question2.o
+Build complete for project Question2
+Time consumed: 860  ms.  

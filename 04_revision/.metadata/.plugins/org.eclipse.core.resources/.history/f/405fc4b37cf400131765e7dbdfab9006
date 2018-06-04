@@ -1,0 +1,27 @@
+/*
+ * T8Q2.c
+ * Created on: 15/06/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#define LEN 40
+
+int main(void){
+
+	int values[5] = {1, 2, 3, 4, 5};
+	int temp = values[LEN - 1];
+	int index;
+
+	for (index = LEN - 1; index > 0; index--){
+
+		values[index] = values[index - 1];
+
+	}
+
+	values[0] = temp;
+
+	return 0;
+
+}
+

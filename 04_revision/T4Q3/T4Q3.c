@@ -1,0 +1,27 @@
+/*
+ * T4Q3.c
+ * Created on: 14/06/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#include <math.h>
+
+double hypotenuse(double side1, double side2);
+
+int main(void){
+
+	double length1, length2;
+
+	printf("Give the two other side of the triangle: ");
+	scanf("%lf%lf", &length1, &length2);
+
+	printf("The hypotenuse is: %.2f", hypotenuse(length1, length2) );
+
+	return 0;
+}
+
+double hypotenuse(double length1, double length2){
+
+	return sqrt(pow(length1, 2) + pow(length2, 2));
+}

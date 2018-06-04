@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Question2 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Question2.o ..\Question2.c
+gcc -o Question2.exe Question2.o
+Build complete for project Question2
+Time consumed: 744  ms.  

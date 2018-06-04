@@ -1,0 +1,12 @@
+
+**** Rebuild of configuration Debug for project Question4 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Question4.o ..\Question4.c
+..\Question4.c: In function 'main':
+..\Question4.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Question4.exe Question4.o
+Build complete for project Question4
+Time consumed: 853  ms.  

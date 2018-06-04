@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project T1Q3 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o T1Q3.o ..\T1Q3.c
+gcc -o T1Q3.exe T1Q3.o
+Build complete for project T1Q3
+Time consumed: 1167  ms.  

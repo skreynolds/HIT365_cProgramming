@@ -1,0 +1,39 @@
+/*
+ * Question3a.c
+ * Created on: 04/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int factorial(int n);
+
+int main(void){
+
+	int answer, k;
+
+	k = 5;
+
+	answer = factorial(k);
+
+	printf("%d\n", answer);
+
+	return 0;
+}
+
+int factorial(int n){
+
+	if(n == 0 || n == 1){
+
+		return 1;
+
+	} else {
+
+		return n*factorial(n-1);
+
+	}
+
+}
+
+

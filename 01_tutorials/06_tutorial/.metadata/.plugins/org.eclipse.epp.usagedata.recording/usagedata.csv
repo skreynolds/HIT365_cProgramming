@@ -1,0 +1,72 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1402724317729
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1402724317729
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1402724317732
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1402724317734
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1402724317735
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1402724317736
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1402724317737
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1402724317739
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1402724317740
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1402724317773
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1402724317774
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1402724317776
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1402724317777
+os,sysinfo,,,"win32",1402724317782
+arch,sysinfo,,,"x86",1402724317782
+ws,sysinfo,,,"win32",1402724317782
+locale,sysinfo,,,"en_AU",1402724317782
+processors,sysinfo,,,"2",1402724317782
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1402724317782
+java.runtime.version,sysinfo,,,"1.7.0_55-b14",1402724317782
+java.specification.name,sysinfo,,,"Java Platform API Specification",1402724317782
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1402724317782
+java.specification.version,sysinfo,,,"1.7",1402724317782
+java.vendor,sysinfo,,,"Oracle Corporation",1402724317782
+java.version,sysinfo,,,"1.7.0_55",1402724317782
+java.vm.info,sysinfo,,,"mixed mode, sharing",1402724317782
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1402724317782
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1402724317782
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1402724317782
+java.vm.specification.version,sysinfo,,,"1.7",1402724317782
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1402724317782
+java.vm.version,sysinfo,,,"24.55-b03",1402724317782
+started,bundle,org.eclipse.cdt.codan.ui,2.0.1.201202111925,"org.eclipse.cdt.codan.ui",1402724317951
+started,bundle,org.eclipse.epp.usagedata.ui,1.3.1.R201106061540,"org.eclipse.epp.usagedata.ui",1402724318842
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724319644
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724325625
+opened,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1402724338851
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1402724339011
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1402724346679
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724348206
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724382288
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1402724382472
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1402724387149
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724388236
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724456973
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724458590
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724460065
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1402724460228
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1402724460337
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1402724460707
+stopped,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1402724460980
+stopped,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1402724460982
+stopped,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1402724460982
+stopped,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1402724460982
+stopped,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1402724460982
+stopped,bundle,org.eclipse.cdt.launch.remote,2.3.0.201202111925,"org.eclipse.cdt.launch.remote",1402724460985
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1402724460987
+stopped,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1402724460989
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.memorybrowser,1.2.100.201202111925,"org.eclipse.cdt.debug.ui.memory.memorybrowser",1402724460991
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.search,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.search",1402724460993
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1402724461000
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.ui",1402724461003
+stopped,bundle,org.eclipse.cdt.gdb.ui,7.0.0.201202111925,"org.eclipse.cdt.gdb.ui",1402724461005
+stopped,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1402724461007
+stopped,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1402724461010
+stopped,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1402724461010
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.traditional,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.traditional",1402724461012
+stopped,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1402724461014
+stopped,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1402724461018
+stopped,bundle,org.eclipse.linuxtools.cdt.autotools.ui,1.0.1.201202152032,"org.eclipse.linuxtools.cdt.autotools.ui",1402724461021
+stopped,bundle,org.eclipse.linuxtools.cdt.autotools.core,1.0.2.201202152032,"org.eclipse.linuxtools.cdt.autotools.core",1402724461021

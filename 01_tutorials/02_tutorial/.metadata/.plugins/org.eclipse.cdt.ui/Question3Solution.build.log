@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project Question3Solution ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Question3Solution.o ..\Question3Solution.c
+gcc -o Question3Solution.exe Question3Solution.o
+Build complete for project Question3Solution
+Time consumed: 1726  ms.  

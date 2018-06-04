@@ -1,0 +1,32 @@
+/*
+ * T7Q1.c
+ * Created on: 15/06/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	int *lPtr;
+
+	int value1 = 9, value2 = 5;
+
+	lPtr = &value1;
+
+	printf("%d\n", *lPtr);
+	printf("%p\n", &lPtr);
+
+	*lPtr = value2;
+
+	printf("%d\n", *lPtr);
+
+	printf("%p\n", &value1);
+	printf("%p\n", &value2);
+
+	printf("%p\n", &lPtr);
+
+	return 0;
+}
+
+

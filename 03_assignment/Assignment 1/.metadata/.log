@@ -1,0 +1,19 @@
+!SESSION 2014-04-08 19:37:30.500 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_AU
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-08 19:38:39.182
+!MESSAGE Indexed 'Assignment1' (0 sources, 10 headers) in 0.75 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-10 19:31:05.395
+!MESSAGE Indexed 'Assignment1v2' (0 sources, 10 headers) in 0.11 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-10 22:56:43.533
+!MESSAGE Indexed 'Question1' (0 sources, 10 headers) in 0.13 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-04-11 17:52:14.010
+!MESSAGE Indexed 'Question1b' (0 sources, 10 headers) in 0.13 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

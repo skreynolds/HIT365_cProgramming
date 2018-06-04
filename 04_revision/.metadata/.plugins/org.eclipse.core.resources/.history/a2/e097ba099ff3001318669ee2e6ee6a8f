@@ -1,0 +1,48 @@
+/*
+ * T1Q3.c
+ * Created on: 14/06/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	float a,b,c;
+
+	printf("Input three numbers:\n");
+
+	scanf("%d%d%d", a, b, c);
+
+	printf("Sum is %.0f\n", a+b+c);
+
+	printf("Average is %.2f\n", (a+b+c) / 3);
+
+	printf("Product is %f\n", a*b*b);
+
+	if (a>b){
+		if (a>c){
+			printf("%f is the largest\n", a);
+		}else{
+			printf("%f is the largest\n", c);
+		}
+	}else{
+		if (b>c){
+			printf("%f is the largest\n", b)
+		}
+	}
+
+	if (a<b){
+		if (a<c){
+			printf("%f is the smallest\n", a);
+		}else{
+			printf("%f is the smallest\n", c);
+		}
+	}else{
+		if (b<c){
+			printf("%f is the smallest\n", b);
+		}
+	}
+
+	return 0;
+}

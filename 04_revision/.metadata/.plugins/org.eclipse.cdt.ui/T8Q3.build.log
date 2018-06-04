@@ -1,0 +1,8 @@
+
+**** Rebuild of configuration Debug for project T8Q3 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o T8Q3.o ..\T8Q3.c
+gcc -o T8Q3.exe T8Q3.o
+Build complete for project T8Q3
+Time consumed: 1384  ms.  

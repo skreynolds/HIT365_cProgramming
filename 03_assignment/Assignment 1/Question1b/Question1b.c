@@ -1,0 +1,16 @@
+/*
+ * Question1b.c
+ * Created on: 11/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	int *x, y;
+	*x = y;
+
+	return 0;
+}
+

@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project Test ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Test.o ..\Test.c
+..\Test.c: In function 'main':
+..\Test.c:11:6: warning: unused variable 'matrix' [-Wunused-variable]
+  int matrix[4][4] = { {1,1,1,1},
+      ^
+gcc -o Test.exe Test.o
+Build complete for project Test
+Time consumed: 794  ms.  

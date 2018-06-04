@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project TestCode2 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o TestCode2.o ..\TestCode2.c
+gcc -o TestCode2.exe TestCode2.o
+Build complete for project TestCode2
+Time consumed: 668  ms.  

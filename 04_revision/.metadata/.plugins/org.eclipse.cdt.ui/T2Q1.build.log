@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project T2Q1 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o T2Q1.o ..\T2Q1.c
+gcc -o T2Q1.exe T2Q1.o
+Build complete for project T2Q1
+Time consumed: 1098  ms.  

@@ -1,0 +1,22 @@
+/*
+ * Question2.c
+ * Created on: 18/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	char fantasy = "The cat sat on the mat.";
+
+	/* Answer to part a */
+	printf("%c", fantasy[0]);
+
+	/* Answer to part b */
+	printf("%c", fantasy[sizeof(fantasy)/sizeof(fantasy[0])]);
+
+	return 0;
+}
+
+

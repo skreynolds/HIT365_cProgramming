@@ -1,0 +1,95 @@
+!SESSION 2014-06-14 17:39:33.515 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_AU
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 17:40:49.212
+!MESSAGE Indexed 'T1Q1' (0 sources, 10 headers) in 0.81 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 17:46:30.723
+!MESSAGE Indexed 'T1Q2' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 17:55:51.942
+!MESSAGE Indexed 'T1Q3' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 18:11:19.987
+!MESSAGE Indexed 'T1Q4' (0 sources, 10 headers) in 0.16 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 18:20:58.795
+!MESSAGE Indexed 'T2Q1' (0 sources, 10 headers) in 0.13 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 18:27:00.819
+!MESSAGE Indexed 'T2Q2' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 18:35:50.741
+!MESSAGE Indexed 'T2Q3' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 18:50:06.992
+!MESSAGE Indexed 'T3Q1' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 18:59:25.236
+!MESSAGE Indexed 'T3Q2' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 19:09:36.679
+!MESSAGE Indexed 'T3Q3' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 20:45:31.479
+!MESSAGE Indexed 'T4Q1' (0 sources, 10 headers) in 0.13 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 20:51:12.361
+!MESSAGE Indexed 'T4Q2' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-14 21:16:54.937
+!MESSAGE Indexed 'T4Q3' (0 sources, 10 headers) in 0.15 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 10:36:59.498
+!MESSAGE Indexed 'T4Q4' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 10:52:05.732
+!MESSAGE Indexed 'T5Q1' (0 sources, 10 headers) in 0.15 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 11:20:42.944
+!MESSAGE Indexed 'T5Q2' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 11:45:55.608
+!MESSAGE Indexed 'T5Q3' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 12:32:42.821
+!MESSAGE Indexed 'T8Q1' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 12:32:59.498
+!MESSAGE Indexed 'T8Q2' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 12:33:12.724
+!MESSAGE Indexed 'T6Q1' (0 sources, 10 headers) in 0.12 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2014-06-15 20:27:13.893 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_AU
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 20:37:10.885
+!MESSAGE Indexed 'T8Q3' (0 sources, 10 headers) in 0.31 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 20:43:17.037
+!MESSAGE Indexed 'T8Q4' (0 sources, 10 headers) in 0.18 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 20:57:57.780
+!MESSAGE Indexed 'T7Q1' (0 sources, 10 headers) in 0.15 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 21:18:25.263
+!MESSAGE Indexed 'T7Q3' (0 sources, 10 headers) in 0.14 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 21:45:59.184
+!MESSAGE Indexed 'T10Q1' (0 sources, 10 headers) in 0.15 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 22:37:32.275
+!MESSAGE Indexed 'T10Q2' (0 sources, 10 headers) in 0.18 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-15 22:47:12.987
+!MESSAGE Indexed 'T10Q3' (0 sources, 10 headers) in 0.16 sec: 52 declarations; 182 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

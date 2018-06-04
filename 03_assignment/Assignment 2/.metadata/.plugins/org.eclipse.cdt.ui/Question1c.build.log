@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project Question1c ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Question1c.o ..\Question1c.c
+..\Question1c.c: In function 'main':
+..\Question1c.c:12:4: warning: 'x' is used uninitialized in this function [-Wuninitialized]
+  *x=y;
+    ^
+gcc -o Question1c.exe Question1c.o
+Build complete for project Question1c
+Time consumed: 1033  ms.  

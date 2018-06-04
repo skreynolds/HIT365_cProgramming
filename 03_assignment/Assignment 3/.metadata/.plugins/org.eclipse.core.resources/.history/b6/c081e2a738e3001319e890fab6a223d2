@@ -1,0 +1,22 @@
+/*
+ * Question2.c
+ * Created on: 24/05/2014
+ * Author: Shane
+ */
+
+void delete(int **array, int vertex, int nrows, int ncol);
+void undelete(int **array, int nrows, int ncol);
+
+
+int main(void){
+
+	int data[6][6] = {	{1,0,1,0,1,0},
+						{0,1,1,0,1,0},
+						{1,1,1,0,0,1},
+						{0,0,0,1,0,0},
+						{1,1,0,0,1,1},
+						{0,0,1,0,1,1}	};
+
+
+
+}

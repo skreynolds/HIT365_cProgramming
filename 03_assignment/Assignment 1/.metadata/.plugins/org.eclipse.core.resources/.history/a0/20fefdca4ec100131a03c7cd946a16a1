@@ -1,0 +1,202 @@
+/*
+ * Assignment1.c
+ * Created on: 08/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define SIZE 7
+
+void printgraphAnalysis(int graph[][SIZE], int rowSize, int colSize);
+int getEdges(int graph[][SIZE], int rowSize, int colSize);
+int getDegree(int graph[][SIZE], int rowSize, int colSize, int i);
+int getMinDegree(int graph[][SIZE], int rowSize, int colSize);
+int getMaxDegree(int graph[][SIZE], int rowSize, int colSize);
+int totalDegree(int graph[][SIZE], int rowSize, int colSize);
+void testFunc(int graph[][SIZE], int rowSize, int colSize);
+
+int main(void){
+
+	int matrix[SIZE][SIZE] = {	{0,3,2,0,0,0,0},
+								{0,0,0,0,1,2,0},
+								{0,0,0,2,0,4,0},
+								{0,0,0,0,0,1,0},
+								{0,0,0,0,0,0,3},
+								{0,0,0,0,0,0,2},
+								{0,0,0,0,0,0,0}	};
+
+	int k = sizeof(matrix) / sizeof(matrix[0]);
+
+	printgraphAnalysis(matrix, k, k);
+
+	testFunc(matrix, k, k);
+
+	return 0;
+}
+
+void printgraphAnalysis(int graph[][SIZE], int rowSize, int colSize){
+
+	/* Initialise the variables to be used in the function */
+	int i;
+
+	/* Prints information on the number of edges in the graph */
+	printf("\nThe number of edges in your graph are: %d\n",
+				getEdges(graph, rowSize, colSize));
+
+	/* Prints the headers for the degrees for each node table */
+	printf("\n\n%s%7s\n\n", "Node", "Degree");
+
+	/* Prints information on the number of degrees for each node */
+	for (i = 0; i <= SIZE-1; i++){
+		printf("V%d%7d\n", i+1, getDegree(graph, rowSize, colSize, i));
+	}
+
+	/* Prints information on the node with the minimum number of degrees */
+	printf("\nThe minimum number of degrees on a node is: %d\n",
+				getMinDegree(graph, rowSize, colSize));
+
+	/* Prints information on the node with the minimum number of degrees */
+	printf("\nThe maximum number of degrees on a node is: %d\n",
+				getMaxDegree(graph, rowSize, colSize));
+
+	/* Prints information on the total number of degrees in the graph */
+	printf("\nThe total number of degrees in the graph are: %d\n",
+				totalDegree(graph, rowSize, colSize));
+}
+
+
+int getEdges(int graph[][SIZE], int rowSize, int colSize){
+	int edgeCounter = 0;
+	int i, j;
+
+	for (i = 0; i <= rowSize-1; i++){
+
+			/* The code, for a given row, iterates through the columns */
+			for (j = i; j <= colSize-1; j++){
+
+				/* This piece of code tests to see if there is a non-zero entry in the graph matrix
+				 * for the [ij]th entry to the graph matrix. If there is, then it counts this as an edge */
+				if (graph[i][j] != 0){
+					edgeCounter += 1; /* Edge counter is increase by one if edge present */
+				}
+			}
+	}
+	return edgeCounter;
+}
+
+
+int getDegree(int graph[][SIZE], int rowSize, int colSize, int i){
+
+	int degreeCounter = 0;
+	int j;
+
+	/* The code, for a given row, iterates through the columns */
+	for (j = 0; j <= colSize-1; j++){
+
+		/* This piece of code tests to see if there is a non-zero entry in the graph matrix
+		* for the [ij]th entry to the graph matrix. If there is, then it counts this as an edge */
+		if (graph[i][j] != 0){
+			degreeCounter += 1; /* Edge counter is increase by one if edge present */
+		}
+	}
+
+	return degreeCounter;
+}
+
+
+int getMinDegree(int graph[][SIZE], int rowSize, int colSize){
+
+	int i, degreeNew;
+	int minDegree = SIZE-1;
+
+
+	for (i = 0; i <= colSize-1; i++){
+
+		degreeNew = getDegree(graph, rowSize, colSize, i);
+
+		if (degreeNew < minDegree){
+			minDegree = degreeNew;
+		}
+	}
+
+	return minDegree;
+}
+
+int getMaxDegree(int graph[][SIZE], int rowSize, int colSize){
+
+		int i, degreeNew;
+		int maxDegree = 0;
+
+		for (i = 0; i <= colSize-1; i++){
+
+			degreeNew = getDegree(graph, rowSize, colSize, i);
+
+			if (degreeNew > maxDegree){
+				maxDegree = degreeNew;
+			}
+		}
+
+		return maxDegree;
+}
+
+int totalDegree(int graph[][SIZE], int rowSize, int colSize){
+
+	int i;
+	int totalDegree = 0;
+
+	for (i = 0; i <= colSize-1; i++){
+		totalDegree += getDegree(graph, rowSize, colSize, i);
+	}
+
+	return totalDegree;
+}
+
+void testFunc(int graph[][SIZE], int rowSize, int colSize){
+	/* Actual correct data value */
+	int actNumEdges = 9;
+	int actNumDegree[] = {2, 2, 2, 1, 1, 1, 0};
+	int actMinDegree = 0;
+	int actMaxDegree = 2;
+	int actTotalDegree = 9;
+	int indicator = 0;
+	int i;
+
+	if(actNumEdges == getEdges(graph, rowSize, colSize)){
+		printf("\nTest getEdges: Pass\n");
+	} else {
+		printf("\nTest getEdges: Fail\n");
+	}
+
+	for (i = 0; i <= SIZE-1; i++){
+
+		if(actNumDegree[i] != getDegree(graph, rowSize, colSize, i)){
+			printf("\nTest getDegree: Fail\n");
+			indicator = 1;
+			break;
+		}
+	}
+
+	if (indicator == 0){
+		printf("\nTest getDegree: Pass\n");
+	}
+
+	if (actMinDegree == getMinDegree(graph, rowSize, colSize)){
+		printf("\nTest getMinDegree: Pass\n");
+	} else {
+		printf("\nTest getMinDegree: Fail\n");
+	}
+
+	if (actMaxDegree == getMaxDegree(graph, rowSize, colSize)){
+		printf("\nTest getMinDegree: Pass\n");
+	} else {
+		printf("\nTest getMinDegree: Fail\n");
+	}
+
+	if (actTotalDegree == totalDegree(graph, rowSize, colSize)){
+		printf("\nTest totalDegree: Pass\n");
+	} else {
+		printf("\nTest totalDegree: Fail\n");
+	}
+}

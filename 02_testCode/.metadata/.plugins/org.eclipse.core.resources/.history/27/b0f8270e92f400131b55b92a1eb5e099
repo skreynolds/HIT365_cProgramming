@@ -1,0 +1,15 @@
+/*
+ * TestCode6.c
+ * Created on: 15/06/2014
+ * Author: Shane
+ */
+
+#include <>
+
+void mystery(const int b[], int startIndex, int size);
+
+int main(void){
+
+	int a[]
+}
+

@@ -1,0 +1,12 @@
+
+**** Build of configuration Debug for project T7Q3 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o T7Q3.o ..\T7Q3.c
+..\T7Q3.c: In function 'mystery':
+..\T7Q3.c:30:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  for (;*s1=*s2; s1++, s2++){
+  ^
+gcc -o T7Q3.exe T7Q3.o
+Build complete for project T7Q3
+Time consumed: 1212  ms.  

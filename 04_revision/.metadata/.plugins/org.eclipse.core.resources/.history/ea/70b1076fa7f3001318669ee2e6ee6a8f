@@ -1,0 +1,25 @@
+/*
+ * T3Q2.c
+ * Created on: 14/06/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+	int i, j, array[5];
+
+	printf("Enter 5 numbers:");
+	scanf("%d%d%d%d%d", array[0], array[1], array[2], array[4], array[5]);
+
+	for (i = 0; i < 5; i++){
+		for (j = 0; j < array[i]; j++){
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+

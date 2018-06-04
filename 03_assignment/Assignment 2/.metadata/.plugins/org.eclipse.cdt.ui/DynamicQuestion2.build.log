@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project DynamicQuestion2 ****
+
+**** Internal Builder is used for build               ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DynamicQuestion2.o ..\DynamicQuestion2.c
+gcc -o DynamicQuestion2.exe DynamicQuestion2.o
+Build complete for project DynamicQuestion2
+Time consumed: 1077  ms.  

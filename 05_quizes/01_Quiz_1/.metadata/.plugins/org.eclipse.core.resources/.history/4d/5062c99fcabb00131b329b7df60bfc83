@@ -1,0 +1,65 @@
+/*
+ * Question3a.c
+ * Created on: 04/04/2014
+ * Author: Shane
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int factorialRecursive(int n);
+int factorialIterative(int m);
+
+int main(void){
+
+	int answer, k, j;
+
+	k = 5;
+	j = 5;
+
+	answer = factorialRecursive(k);
+
+	printf("The answer for the recursive factorial function is %d\n", answer);
+
+	answer = factorialIterative(j);
+
+	printf("The answer for the iterative factorial function is %d\n", answer);
+
+	return 0;
+}
+
+int factorialRecursive(int n){
+
+	if(n == 0 || n == 1){
+
+		return 1;
+
+	} else {
+
+		return n*factorialRecursive(n-1);
+
+	}
+
+}
+
+int factorialIterative(int m){
+
+	if(m == 0 || m == 1){
+		return 1;
+	}
+
+	int i;
+
+	int fact = 1;
+
+	for(i = 1; i <= m; i++){
+
+		fact *= i;
+
+	}
+
+	return fact;
+
+}
+
+
